@@ -11,7 +11,7 @@
 
 nav {
     display: flex;
-    justify-content: left, space-evenly;
+    justify-content: left;
     text-align: center;
 }
 
@@ -38,7 +38,10 @@ padding-top: 65px;
 transition: transform .5s;
 }
 
-
+#whtitle{
+    color: beige;
+    font-size: larger;
+}
 .welcome-msg {
 padding-top: 25px;
 grid-column: 3/5;
@@ -75,6 +78,7 @@ text-align: center;
 #workgrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
 }
 
 #workhis {
@@ -124,9 +128,7 @@ box-shadow: 5px 5px 10px #1F7A8C;
 
 
 
-main section{
-    text-align: center;
-}
+
 #background {
     height: 725px;
     background-color: #053C5E;
