@@ -84,12 +84,14 @@ justify-content: center;
 }
 
 #testimonies {
-    text-align: left;
+    text-align: justify;
     width: 1150px;
     background-color: #1F7A8C ;
-    align-content: center;
-    justify-content: center;
     margin: 0 auto;
+    padding-left: 2px;
+    padding-right: 4px;
+
+    
 }
 
 #stars {
@@ -98,6 +100,8 @@ justify-content: center;
 
 #comment1, #comment2, #comment3, #comment4 {
     width: 30px;
+    padding-left: 10px;
+    padding-right: 2px;
 }
 
 #workgrid {
@@ -404,3 +408,5 @@ form {
         margin-top: 25px;
     }
 }
+
+/* test test test my css wont update on my github */
